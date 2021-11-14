@@ -110,6 +110,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 290px;
 }
 
 .product-price div,
@@ -138,4 +139,17 @@ button {
 
 .button.primary {
   background-color: #ffc000;
+}
+
+/* Filter */
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #C0C0C0 solid;
+}
+
+.filter div {
+  flex: 1;
 }
