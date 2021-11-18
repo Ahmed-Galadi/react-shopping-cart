@@ -219,11 +219,37 @@ button {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  max-width: 320px;
+  width: 320px;
 }
 
 input {
   width: 100%;
   padding: 1rem;
   border: 0.1rem #C0C0C0 solid;
+}
+
+/* Product Details */
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+
+.product-details img {
+  max-height: 100vh;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+.product-details-description {
+  flex: 1 1;
+  margin: 1rem;
+}
+
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 1000;
 }
