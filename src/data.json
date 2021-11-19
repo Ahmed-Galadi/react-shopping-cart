@@ -8,7 +8,7 @@
       "availableSizes": ["X", "L", "XL", "XXL"],
       "price": 29.9
     },
-        {
+    {
       "_id": "dress2",
       "image": "/images/dress2.jpg",
       "title": "Midi sundress with ruched front",
